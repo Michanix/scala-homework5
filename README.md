@@ -4,6 +4,9 @@ In short: program takes S-expression like this: <code>(+ (* (- 5 5) (^ x 2)) 8)<
 and returns simplified infix version of it like this one with MathML rendering along the way: 
 <code>(5-5)*x^2+8=8</code>
 </p>
+
+<h3>Example</h3>
+![expresion](https://ibb.co/gyTDzbQ)
 <h3>Libraries used</h3>
 <ul>
     <li>FasteParse to parse strings into Expression trees</li>
