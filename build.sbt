@@ -3,12 +3,8 @@ name := "kodu5"
 version := "0.1"
 
 scalaVersion := "2.13.4"
-// Add dependency on ScalaFX library
 libraryDependencies += "org.scalafx" %% "scalafx" % "14-R19"
-// scala parser combinator dependency
-//libraryDependencies += "org.scala-lang.modules" %% "scala-parser-combinators" % "1.1.2"
 libraryDependencies += "com.lihaoyi" %% "fastparse" % "2.2.2"
-libraryDependencies += "io.higherkindness" %% "droste-core" % "0.8.0"
 
 // Determine OS version of JavaFX binaries
 lazy val osName = System.getProperty("os.name") match {
