@@ -6,7 +6,7 @@ and returns simplified infix version of it like this one with MathML rendering a
 </p>
 
 <h3>Example</h3>
-<img src="https://imgur.com/a/VnSlu9N" width="220" height="240" />
+<img src="https://i.imgur.com/ZNTku0W.png" width="220" height="240" />
 
 
 <h3>Libraries used</h3>
